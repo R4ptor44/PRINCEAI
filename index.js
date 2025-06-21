@@ -12,6 +12,8 @@ import path from 'path';
 import os from 'os';
 import { promises as fsPromises } from 'fs';
 
+require('dotenv').config();
+
 // Set up __dirname and __filename
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
